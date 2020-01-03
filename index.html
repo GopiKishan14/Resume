@@ -1,9 +1,24 @@
-<div id="pdf" style="height: 800px;"></div>
-<script src="/assets/js/pdfobject.min.js"></script>
-<script>
-PDFObject.embed("Resume.pdf", "#pdf");
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+<!--     <link rel="stylesheet" href="style.css"> -->
+  </head>
 
-<style>
-    .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
-</style>
+  <body>
+    
+    <div id="pdf" style="height: 800px;"></div>
+    <script src="/assets/js/pdfobject.min.js"></script>
+    <script>
+    PDFObject.embed("Resume.pdf", "#pdf");
+    </script>
+
+    <style>
+        .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+    </style>
+
+  </body>
+</html>
+
+
